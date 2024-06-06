@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.catgory-img{
+    top:-16px
+}
+
+.winninginfo_img {
+    min-width: 84px;
+    max-height: 59px;
+}
+
+img.winninginfo_img1 {
+    width: 46px;
+    height: 45px;
+}
+
+.daimondicon {
+    color: transparent;
+    position: absolute;
+    top: -37px;
+    min-width: 72px;
+    left: -8px;
+    right: 0;
+}
+
+span.promotion_text {
+    margin-top: 39px;
+}
+
+.react-tabs__tab--selected {
+    background: #fae59f !important;
+    border-color: #aaa;
+    color: #8f5206 !important;
+    border-radius: 5px 5px 0 0;
+    font-family:'Plus Jakarta Sans';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.react-tabs__tab {
+    font-size: 15px !important;
+    color: grey ;
+    font-weight: 500 !important;
+}
+
