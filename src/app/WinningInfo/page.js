@@ -27,9 +27,9 @@ const WinningInfo = () => {
 
                 <div className='mt-[15px]'>
                     {wininfo.map((winner, index) => (
-                        <div key={index} className='flex flex-row justify-between bg-lightgreey rounded-[10px] px-[10px] py-[4px] mb-[10px]'>
-                            <div className='flex flex-row gap-[10px] items-center'>
-                                <div>
+                        <div key={index} className='flex flex-row justify-between xs:gap-[10px] bg-lightgreey rounded-[10px] px-[10px] py-[4px] mb-[10px]'>
+                            <div className='flex sm:flex-row sm:gap-[10px] xs:gap-[5px] items-center xs:flex-col'>
+                                <div className='xs:w-[50%]'>
                                     <Image src={winner.img1} width={50} height={30} alt="User Image" className='rounded-[50%] winninginfo_img1'/>
                                 </div>
                                 <div>
@@ -38,7 +38,7 @@ const WinningInfo = () => {
                             </div>
                             <div className='flex flex-row gap-[10px]'>
                                 <div>
-                                    <Image src={winner.img2} width={70} height={100} alt="Slot Image" className='winninginfo_img border-[1px] border-[bg-bg] rounded-[10px]'/>
+                                    <Image src={winner.img2} width={70} height={100} alt="Slot Image" className='winninginfo_img border-[1px] border-[bg-bg]  rounded-[10px]'/>
                                 </div>
                                 <div>
                                     <h2 className='font-extrabold font-jakarta text-yellowlight text-[14px]'>Receive ₹{winner.earning}</h2>

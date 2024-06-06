@@ -45,7 +45,7 @@ const Lottery = () => {
 
             <div
                 key={item.id}
-                className='relative w-[31%] h-[153px] bg-cover bg-center flex items-end'
+                className='relative sm:w-[31%] xs:w-[30%] h-[153px] bg-cover bg-center flex items-end'
                 style={{ backgroundImage: `url(${item.img.src})` }}
             >
                 <p className='text-yellowlight text-[12px] text-center w-full py-[10px] bg-yellowlight font-bold font-jakarta bg-opacity-50'>{item.title}</p>

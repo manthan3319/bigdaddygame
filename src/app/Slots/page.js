@@ -30,7 +30,7 @@ const Slots = () => {
 
                 <div className='flex flex-wrap gap-[11px] mt-[15px]'>
                     {SlotImag.map((slot, index) => (
-                        <div key={index} className='w-[48.33%]'>
+                        <div key={index} className='sm:w-[48.33%] xs:w-[45%]'>
                             <div>
                                 <Link href="#" passHref>
                                     <Image src={slot.img} width={500} height={100} alt={`slot-${slot.id}`} />

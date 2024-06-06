@@ -1,3 +1,4 @@
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,9 +26,9 @@ img.winninginfo_img1 {
     right: 0;
 }
 
-span.promotion_text {
+/* span.promotion_text {
     margin-top: 39px;
-}
+} */
 
 .react-tabs__tab--selected {
     background: #fae59f !important;

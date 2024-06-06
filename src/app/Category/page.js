@@ -28,10 +28,10 @@ import Link from 'next/link';
     return (
         <div className='lg:max-w-[1440px] xl:px-[460px] mx-auto '>
             <div className='bg-darkgreey px-[20px] pt-[30px]'>
-                <div className='flex flex-wrap gap-[10px] justify-center'>
+                <div className='flex sm:flex-wrap sm:gap-[10px] xs:gap-[10px] xs:flex-wrap sm:justify-center'>
                     {categories.map((category) => (
 
-                        <div key={category.id} className='p-[10px] bg-bg w-[31.60%] rounded-[10px] relative min-h-[100px]'>
+                        <div key={category.id} className='p-[10px] bg-bg sm:w-[31.60%] xs:w-[31%] rounded-[10px] relative min-h-[100px]'>
                             <Link href="#" passHref>
                                 <div>
                                     <Image src={category.img} width={100} height={100} alt={category.name} className='absolute catgory-img ' />
