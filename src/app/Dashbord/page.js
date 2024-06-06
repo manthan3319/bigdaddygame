@@ -10,7 +10,7 @@ import SlickSlider from '../slickSlider/page';
 import  Lottery  from '../Lottery/page';
 const Dashbord = () => {
   return (
-    <>
+    <div className='bg-bg-greey'>
       <Navbar />
       <SlickSlider/>
       <Category/>
@@ -21,7 +21,7 @@ const Dashbord = () => {
       <WinningInfo/>
       <Menubar/>
       
-    </>
+    </div>
   )
 }
 
