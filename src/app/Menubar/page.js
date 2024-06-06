@@ -6,7 +6,7 @@ import activity from '../../../public/images/svg-image-8.svg';
 import promotion from '../../../public/images/svg-image-9.svg';
 import wallet from '../../../public/images/svg-image-10.svg';
 import Account from '../../../public/images/svg-image-11.svg';
-export const Menubar = () => {
+const Menubar = () => {
     return (
         <div className='lg:max-w-[1435px] xl:px-[460px] mx-auto fixed bottom-0 w-[100%]'>
             <div className='bg-lightgreey px-[20px] py-[10px]'>
@@ -24,3 +24,5 @@ export const Menubar = () => {
         </div>
     )
 }
+
+export default Menubar;

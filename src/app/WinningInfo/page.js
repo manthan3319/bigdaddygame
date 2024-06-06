@@ -9,7 +9,7 @@ import slotimg5 from '../../../public/images/slot5.png';
 import slotimg6 from '../../../public/images/slot6.png';
 import slotimg7 from '../../../public/images/slot7.png';
 
-export const WinningInfo = () => {
+const WinningInfo = () => {
     const wininfo = [
         { id: 1, img1: user1, name: 'Mem***XNW', img2: slotimg1, earning: '3,763.20' },
         { id: 2, img1: user1, name: 'Mem***XNW', img2: slotimg2, earning: '3,763.20' },
@@ -52,3 +52,5 @@ export const WinningInfo = () => {
         </div>
     );
 };
+
+export default WinningInfo;

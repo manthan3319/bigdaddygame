@@ -5,7 +5,7 @@ import category2img from '../../../public/images/gamecategory2.png';
 import category3img from '../../../public/images/gamecategory3.png';
 import Link from 'next/link';
 
-export const Category = () => {
+ const Category = () => {
     const categories = [
         {
             id: 1,

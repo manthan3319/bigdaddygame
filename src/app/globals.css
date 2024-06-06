@@ -45,3 +45,6 @@ span.promotion_text {
     font-weight: 500 !important;
 }
 
+.react-tabs__tab:focus:after{
+    background:transparent !important
+}

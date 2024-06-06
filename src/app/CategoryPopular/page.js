@@ -5,7 +5,7 @@ import CategoryPopular2 from '../../../public/images/CategoryPopular2.png';
 import CategoryPopular3 from '../../../public/images/CategoryPopular3.png';
 import Link from 'next/link';
 
-export const CategoryPopular = () => {
+const CategoryPopular = () => {
     const CPopular = [
         {
             id: 1,
@@ -47,3 +47,5 @@ export const CategoryPopular = () => {
         </div>
     );
 };
+
+export default CategoryPopular;

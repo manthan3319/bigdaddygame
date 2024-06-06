@@ -9,7 +9,7 @@ import slotimg5 from '../../../public/images/slot5.png';
 import slotimg6 from '../../../public/images/slot6.png';
 import slotimg7 from '../../../public/images/slot7.png';
 
-export const Slots = () => {
+const Slots = () => {
     const SlotImag = [
         { id: 1, img: slotimg1 },
         { id: 2, img: slotimg2 },
@@ -43,3 +43,6 @@ export const Slots = () => {
         </div>
     );
 };
+
+
+export default Slots;

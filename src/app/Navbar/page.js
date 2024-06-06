@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import logo from '../../../public/images/logo.png';
 import usalogo from '../../../public/images/usalogo.png';
-export const Navbar = () => {
+const Navbar = () => {
     return (
         <div className='lg:max-w-[1440px] xl:px-[460px] mx-auto fixed top-0 w-[100%]' style={{zIndex:9999}}>
             <div className='bg-greey px-[20px] py-[10px]'>
@@ -46,3 +46,6 @@ export const Navbar = () => {
         </div>
     );
 }
+
+
+export default Navbar;

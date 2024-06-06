@@ -3,7 +3,7 @@ import Image from 'next/image';
 import gamecategory4 from '../../../public/images/gamecategory4.png';
 import gamecategory5 from '../../../public/images/gamecategory5.png';
 import Link from 'next/link';
-export const ChildCategory = () => {
+const ChildCategory = () => {
     const categories = [
         {
             id: 1,
@@ -40,3 +40,4 @@ export const ChildCategory = () => {
         </div>
     )
 }
+export default ChildCategory;

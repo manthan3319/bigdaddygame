@@ -8,7 +8,7 @@ import img3 from '../../../public/images/lotterycategory3.png';
 import img4 from '../../../public/images/lotterycategory4.png';
 import Link from 'next/link';
 import FadeIn from 'react-fade-in';
-export const Lottery = () => {
+const Lottery = () => {
     const allItems = [
         { id: 1, img: img1, title: "Win Go 1Min" },
         { id: 2, img: img2, title: "Win Go 3Min" },
@@ -112,3 +112,5 @@ export const Lottery = () => {
         </div>
     )
 }
+
+export default Lottery;

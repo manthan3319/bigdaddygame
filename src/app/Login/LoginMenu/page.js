@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Logo from '../../../../public/images/logo.png';
 import usalogo from '../../../../public/images/usalogo.png';
 import Image from 'next/image';
-export const LoginMenu = () => {
+ const LoginMenu = () => {
     return (
         <div className='lg:max-w-[1440px] xl:px-[460px] mx-auto fixed top-0 w-[100%]' style={{ zIndex: 9999 }}>
             <div className='bg-greey px-[20px] py-[10px]'>
@@ -24,3 +24,5 @@ export const LoginMenu = () => {
         </div>
     )
 }
+
+export default LoginMenu;

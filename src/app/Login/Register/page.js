@@ -1,5 +1,5 @@
 import React from 'react'
-import { LoginMenu } from '../LoginMenu/page';
+import  LoginMenu  from '../LoginMenu/page';
 import Link from 'next/link';
  const Register = () => {
     return (

@@ -1,14 +1,14 @@
 import React from 'react'
-import { Navbar } from '../Navbar/page';
-import { Category } from '../Category/page';
-import { CategoryPopular } from '../CategoryPopular/page';
-import { ChildCategory } from '../ChildCategory/page';
-import { Slots } from '../Slots/page';
-import { WinningInfo } from '../WinningInfo/page';
-import { Menubar } from '../Menubar/page';
+import  Navbar  from '../Navbar/page';
+import  Category  from '../Category/page';
+import  CategoryPopular  from '../CategoryPopular/page';
+import  ChildCategory  from '../ChildCategory/page';
+import  Slots  from '../Slots/page';
+import  WinningInfo  from '../WinningInfo/page';
+import  Menubar  from '../Menubar/page';
 import SlickSlider from '../slickSlider/page';
-import { Lottery } from '../Lottery/page';
-export const Dashbord = () => {
+import  Lottery  from '../Lottery/page';
+const Dashbord = () => {
   return (
     <>
       <Navbar />
@@ -24,3 +24,5 @@ export const Dashbord = () => {
     </>
   )
 }
+
+export default Dashbord; 
