@@ -6,7 +6,7 @@ import Link from 'next/link';
         <>
             <LoginMenu />
             <div className='lg:max-w-[1440px] xl:px-[460px] mx-auto min-h-screen flex items-center justify-center'>
-                <div className='bg-darkgreey px-[20px] pt-[15px] w-full max-w-md min-h-[640px] flex flex-col justify-center'>
+                <div className='px-[20px] pt-[15px] w-full max-w-md min-h-[640px] flex flex-col justify-center'>
                     <div className='text-center mb-[50px]'>
                         <h1 className='text-yellowlight font-bold text-[19px]'>Register</h1>
                     </div>
