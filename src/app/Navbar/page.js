@@ -24,7 +24,7 @@ const Navbar = () => {
                     <div>
                         <div className='flex flex-row bg-bg gap-[8px] px-[5px] py-[4px] rounded-[10px] text-[#292d2e] items-center mt-[5px]'>
                             <div>
-                                <sapn className="text-[20px]"><i class="fa fa-cloud-download" aria-hidden="true"></i></sapn>
+                                <sapn className="text-[18px]"><i class="fa fa-cloud-download" aria-hidden="true"></i></sapn>
                             </div>
                             <div>
                                 <p className='text-[14px] font-jakarta font-medium'>Download APP</p>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
                         <div className='flex flex-row bg-bg gap-[8px] px-[5px] py-[4px] rounded-[10px] text-[#292d2e] items-center mt-[5px]'>
                             <div>
-                                <sapn className="text-[20px]"><i class="fa fa-headphones" aria-hidden="true"></i></sapn>
+                                <sapn className="text-[18px]"><i class="fa fa-headphones" aria-hidden="true"></i></sapn>
                             </div>
                             <div>
                                 <p className='text-[14px] font-jakarta font-medium'>Customer Service</p>

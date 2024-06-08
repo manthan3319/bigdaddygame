@@ -25,7 +25,7 @@ const SlickSlider = () => {
   };
 
   return (
-    <div className='lg:max-w-[1440px] xl:px-[460px] mx-auto  pt-[105px] '>
+    <div className='lg:max-w-[1440px] xl:px-[460px] mx-auto  pt-[95px] '>
       <div className='bg-darkgreey px-[20px] xs:pt-[40px] sm:pt-[15px] '>
         <div className="slider-container">
           <Slider {...settings}>
