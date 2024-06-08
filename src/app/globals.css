@@ -34,7 +34,7 @@ img.winninginfo_img1 {
     background: #fae59f !important;
     border-color: #aaa;
     color: #8f5206 !important;
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px !important;
     font-family:'Plus Jakarta Sans';
     font-weight: bold;
     font-size: 18px;
@@ -50,3 +50,7 @@ img.winninginfo_img1 {
     background:transparent !important
 }
 
+
+.react-tabs__tab-list{
+    border-bottom: none !important;
+}
