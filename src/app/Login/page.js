@@ -49,7 +49,7 @@ const Login = () => {
                                 <span className='flex flex-row gap-[5px]'> <span><Image src={emailnumber} alt='img' width={25} height={25} /></span> <label className="text-[18px] text-white font-jakarta inline-block mb-[4px]">Email / Account Log in</label> </span>
                                 <input type='text' className='w-[100%] px-[10px] py-[12px] text-white font-jakarta bg-greey rounded-[5px]' placeholder='Please input your email' /> <br /><br />
 
-                                <span className='flex flex-row gap-[5px]'> <span><Image src={password} alt='img' width={25} height={25} /></span> <label className="text-[18px] text-white font-jakarta inline-block mb-[4px]">Password</label> </span>F
+                                <span className='flex flex-row gap-[5px]'> <span><Image src={password} alt='img' width={25} height={25} /></span> <label className="text-[18px] text-white font-jakarta inline-block mb-[4px]">Password</label> </span>
                                 <input type='password' className='w-[100%] px-[10px] py-[12px] text-white font-jakarta bg-greey rounded-[5px]' placeholder='Password' /> <br /><br />
                                 <div className='px-[50px] mt-[20px]'>
                                     <Link href="/" className='text-center font-jakarta font-bold text-[15px] w-[100%] text-white hover:text-black hover:bg-bg inline-block py-[10px] rounded-[50px] border-[2px] border-bg mb-[10px]'>Log in</Link>

@@ -32,7 +32,7 @@ const SlickSlider = () => {
             {images.map((image, index) => (
               <div key={index}>
                 <div >
-                  <Image src={image}  alt={`Image ${index + 1}`} />
+                  <Image src={image} className='rounded-[15px]' alt={`Image ${index + 1}`} />
                 </div>
               </div>
             ))}
