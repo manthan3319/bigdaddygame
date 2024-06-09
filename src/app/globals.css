@@ -42,7 +42,7 @@ img.winninginfo_img1 {
 
 .react-tabs__tab {
     font-size: 15px !important;
-    color: grey ;
+ 
     font-weight: 500 !important;
 }
 
@@ -53,4 +53,28 @@ img.winninginfo_img1 {
 
 .react-tabs__tab-list{
     border-bottom: none !important;
+}
+
+.tablist_login li {
+    background: none !important;
+    color: #888 !important;
+    border-bottom: 1px solid #888 ;
+}
+
+
+.tablist_login li.react-tabs__tab--selected {
+    background: none !important;
+    border-color: #D9AC4F;
+    color: #D9AC4F !important;
+    border-radius: 0px !important;
+    border-bottom: solid 1px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+    font-size: 18px;
+    background: antiquewhite;
+    filter: sepia(1);
+}
+
+.tablist_login li.react-tabs__tab--selected h1 span Image{
+    filter: blur();
 }
